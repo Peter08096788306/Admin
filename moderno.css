@@ -13,13 +13,17 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
-    background: white;
+    background: whitesmoke;
     width: 100%;
     padding: 1rem;
 }
+.logo {
+    /* width: 55%; */
+}
 .logo img {
-    width: 30%;
+    width: 25%;
 }
 .open, .close {
     cursor: pointer;
@@ -359,7 +363,6 @@ form textarea {
 }
 .remodel h2 {
     margin-left: 2rem;
-    /* text-align: center; */
 }
 .design p {
     margin-top: 1rem;
@@ -380,6 +383,9 @@ form textarea {
 
 
 @media (min-width: 1022px) {
+    .logo {
+        margin-left: 6rem;
+    }
     nav {
         background: 0;
         visibility: visible;
